@@ -38,7 +38,7 @@ def githubCreds = new UsernamePasswordCredentialsImpl(
     "github-creds",
     "GitHub Credentials with PAT",
     "jnaranjoe",
-    Secret.fromString(githubToken)
+    githubToken
 )
 
 // Check if credential already exists to avoid duplicates
